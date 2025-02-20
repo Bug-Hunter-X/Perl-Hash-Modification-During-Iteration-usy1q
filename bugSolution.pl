@@ -1,0 +1,1 @@
+my %hash = (a => 1, b => 2, c => 3); my @keys = keys %hash; foreach my $key (@keys) { print "$key => $hash{$key}\n"; delete $hash{$key} if $hash{$key} == 2; } foreach my $key (keys %hash) { print "$key => $hash{$key}\n"; }
