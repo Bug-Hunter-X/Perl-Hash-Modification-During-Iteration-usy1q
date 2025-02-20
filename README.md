@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Perl when modifying a hash during iteration using keys(). The 'bug.pl' file shows the problematic code that can lead to unexpected results. The solution is provided in 'bugSolution.pl', illustrating a safer way to iterate and modify the hash.
